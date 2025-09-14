@@ -1,0 +1,14 @@
+[project]
+name = "trait-trybe"
+version = "0.1.0"
+description = "A reverse social network prototype for finding ideologically aligned soul tribes."
+requires-python = ">=3.13"
+dependencies = [
+    "spacy",
+    "sentence-transformers",
+    "transformers",
+    "numpy",
+]
+
+[project.scripts]
+run = "trait_trybe.main:main"

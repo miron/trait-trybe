@@ -11,8 +11,10 @@ TraitTribe is a reverse social network prototype for finding ideologically align
 
 ## Getting Started
 1. Clone the repo: `git clone https://github.com/miron/trait-tribe.git`
-2. Install dependencies: `pip install -r requirements.txt` (e.g., NLTK, spaCy for semantics).
-3. Run prototype: `python main.py` (basic chat simulation with trait filtering).
+2. Install PyTorch for CPU: `pip install torch --index-url https://download.pytorch.org/whl/cpu`
+3. Install other dependencies: `pip install .`
+4. Download the spaCy model: `python -m spacy download en_core_web_sm`
+5. Run the prototype: `python main.py`
 
 ## Contributing
 Fork and PR ideas for semantic engines, UI, or real-time matching. Let's build tribes, not empires!
